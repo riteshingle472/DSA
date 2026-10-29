@@ -13,6 +13,8 @@ public class Segregate0And1 {
                 int temp = arr[i];
                 arr[i] = arr[j];
                 arr[j] = temp;
+                i++;
+                j--;
             }
         }
 
